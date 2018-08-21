@@ -17,7 +17,7 @@ class Song
     song
   end
 
-  # Alternate Song.new_by_filename(file_name) Method
+  ## Alternate Song.new_by_filename(file_name) Method ##
   # def self.new_by_filename(file_name)
   #   artist, song = file_name.split(" - ")
   #   new_song = self.new(song)
