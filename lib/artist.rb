@@ -16,7 +16,6 @@ class Artist
   # Instance method that takes a song instance from the Song class
   # and adds it to the artist's songs array
   def add_song(song)
-    song.artist = self
     @songs << song
   end
 
