@@ -33,7 +33,7 @@ class Song
   # instance using the Artist class's #add_song method.
   def artist_name=(artist_name)
     self.artist = Artist.find_or_create_by_name(artist_name)
-    self.artist.add_song(self)
+    artist.add_song(self)
   end
 
 end
