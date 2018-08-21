@@ -36,10 +36,6 @@ class Artist
     new_artist
   end
 
-  def self.find_or_create_by_name(name)
-    self.find(name) ? self.find(name) : self.create(name)
-  end
-
   # Access a list of the artist instance's songs by the @songs
   # instance variable, then iterate over the array, printing
   # each song name with a line break following.
