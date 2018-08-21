@@ -8,16 +8,16 @@ class Artist
     @songs = []
   end
 
+  # Class method that displays all artist instances
+  def self.all
+    @@all
+  end
+
   # Instance method that takes a song instance from the Song class
   # and adds it to the artist's songs array
   def add_song(song)
     song.artist = self
     @songs << song
-  end
-
-  # Class method that displays all artist instances
-  def self.all
-    @@all
   end
 
   # Add an artist instance to the @@all class variable.
