@@ -3,7 +3,6 @@ class Song
 
   def initialize(name)
     @name = name
-    @artist = self.artist
   end
 
   # Create a new song instance using the files imported from the MP3Importer class.
